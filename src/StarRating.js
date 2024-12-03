@@ -2,7 +2,9 @@ import { useState } from "react"
 
 const containerStyle={
     display:"flex",
-alignItmes:"center",
+alignItems:"center",
+justifyItems:"center",
+
 // gap:"60px",
 
 }
@@ -16,8 +18,9 @@ const starContainerStyle= {
 export default function StarRating({maxRating=5,color="gold",size=48,className=""}) {
 
   const textStyle= {
-    lineHight:"1",
+    // lineHeight :"9px",
     margin:"0",
+    justifyText:"bottom",
     paddingTop:"auto",
    color:`${color}`,
    fontSize:`${size/2}px` 
