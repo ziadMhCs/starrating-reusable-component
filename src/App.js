@@ -5,6 +5,7 @@ function App() {
       <StarRating 
         maxRating={5}
       />
+
     </div>
   );
 }
